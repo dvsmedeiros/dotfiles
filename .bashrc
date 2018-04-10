@@ -2,3 +2,4 @@
 export SICAT_HOME="~/dev/env/wildfly";
 export BANCO_XP="ORACLE";
 export PATH="$PATH:SICAT_HOME:BANCO_XP";
+export MAVEN_OPTS="-Xms1024m -Xmx2048m -XX:PermSize=1024m"
