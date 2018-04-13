@@ -1,5 +1,9 @@
 # Add `~/bin` to the `$PATH`
+export SICAT_HOME="~/dev/env/wildfly";
+export MAVEN_OPTS="-Xms2048m -Xmx2048m -XX:PermSize=1024m"
 export PATH="$HOME/bin:$PATH";
+export PATH="$PATH:MAVEN_OPTS";
+export PATH="$PATH:SICAT_HOME";
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
