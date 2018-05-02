@@ -162,6 +162,8 @@ alias reload="exec $SHELL -l"
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
 
+alias reset-camera="sudo killall VDCAssistant"
+
 alias repo="cd ~/dev/projects/repository"
 alias comp="cd ~/dev/projects/repository/rodovias/componentes"
 alias leg="cd ~/dev/projects/repository/rodovias/legado"
